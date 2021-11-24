@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+
+<body>
+    <h1>Student Registration</h1>
+    <form name="student" action="#" method="post">
+        <div id="nameinfo">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div id="pass">
+            <label for="passwd">Password:</label>
+            <input type="password" name="passwd" id="passwd">
+        </div>
+        <div id=mailinfo>
+            <label for="mail">E-mail:</label>
+            <input type="email" name="mail" id="mail">
+        </div>
+        <div id="sage">
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="18" max="120">
+        </div>
+        <div id="dob">
+            <label for="birthdate">Password:</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <div id="color">
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="color">
+        </div>
+        <div id="flanguage">
+            <label for="Language">Language:</label><br>
+            <input type="checkbox" name="c" id="c">C <br>
+            <input type="checkbox" name="Python" id="Python">Python <br>
+            <input type="checkbox" name="java" id="java0">Java <br>
+            <input type="checkbox" name="c++" id="c++">C++ <br>
+
+        </div>
+        <div id="sgender">
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="gender">Male
+            <input type="radio" name="gender" id="gender">Female
+        </div>
+        <div id="section">
+            <label for="section">Section:</label>
+            <select name="section" id="section">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+        </div>
+        <div name="submitinfo">
+            <input type="submit" name="submit" value="Send">
+        </div>
+
+
+    </form>
+</body>
+
+</html>
