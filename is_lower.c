@@ -1,13 +1,13 @@
-                                                            3.	is_lower() function
+                                                          
+
+
 
 #include<stdio.h>
 #include<conio.h>
-
 int is_lower(char);
-
 void main()
 {
-char c,w;
+char c;
 clrscr();
 scanf("%c",&c);
 if(is_lower(c)){
